@@ -46,6 +46,7 @@
     --sidebar-height: 100%;
     --sidebar-overflow: hidden;
     --background-color: black;
+    --background-image: url('images/Sprinkle.svg')
 
 }
 
@@ -53,11 +54,11 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
     font-family: var(--font-family);
     font-size: var(--font-size);
     line-height: var(--line-height);
     color: var(--font-color);
+    background-image: var(--background-image)
 }
 
 body a {
@@ -69,7 +70,7 @@ body a {
 #main-container {
     max-width: var(--container-width);
     margin: 0 auto;
-    background-color: var(--container-bg-color);
+    background-image: var(--background-image)
 }
 
 .flex {
